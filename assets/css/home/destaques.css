@@ -1,9 +1,25 @@
-.destaques-bg{
+.destaques-bg,
+.experimente-bg {
     position: relative;
+    background-color: var(--cor-1);
 }
 
-.destaques {
-    display: flex;
-    justify-content: center;
-    padding: 60px;
+.destaques,
+.experimente {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center start;
+    padding: 200px 60px;
+}
+
+@media (max-width: 800px) {
+    .destaques {
+        padding: 130px 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .destaques {
+        padding: 100px 20px;
+    }
 }

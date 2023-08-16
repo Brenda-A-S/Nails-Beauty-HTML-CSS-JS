@@ -1,0 +1,11 @@
+.experimente-bg {
+    background-color: var(--cor-3);
+}
+
+.experimente-conteudo {
+    margin-bottom: 8px;
+}
+
+.experimente-conteudo p {
+    margin-top: 4px;
+}

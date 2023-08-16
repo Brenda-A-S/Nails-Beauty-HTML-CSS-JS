@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
-    padding: 60px 100px 100px 60px;
+    padding: 60px 60px 100px 60px;
 }
 
 .introducao-conteudo p {
@@ -25,6 +25,17 @@
         grid-template-columns: 1fr;
         gap: 24px;
         padding: 60px 30px 120px 30px;
+    }
+    .introducao-img img {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .introducao{
+        grid-template-columns: 1fr;
+        gap: 24px;
+        padding: 60px 20px 100px 20px;
     }
     .introducao-img img {
         display: none;

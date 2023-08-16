@@ -5,12 +5,12 @@
     list-style: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    transition: .2s;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #141414;
-    background-color: var(--cor-1);
 }
 
 a {

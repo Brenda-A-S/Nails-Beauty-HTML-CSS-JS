@@ -32,4 +32,5 @@
 .font-1-s-b {
     font: 500 1.12rem/1.3 "Poppins", sans-serif;
     text-transform: lowercase;
+    text-decoration: underline;
 }
