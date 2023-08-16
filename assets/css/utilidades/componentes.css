@@ -34,3 +34,23 @@
         background-color: var(--cor-2);
     }
 }
+
+.custom-shape-divider-top-1692203783 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1692203783 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1692203783 .shape-fill {
+    fill: #F7F7F7;
+}
