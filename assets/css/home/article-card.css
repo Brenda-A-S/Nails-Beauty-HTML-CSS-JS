@@ -12,14 +12,22 @@
     padding: 200px 60px;
 }
 
+.experimente {
+    place-items: center;
+}
+
 @media (max-width: 800px) {
-    .destaques {
+
+    .destaques,
+    .experimente {
         padding: 130px 30px;
     }
 }
 
 @media (max-width: 600px) {
-    .destaques {
+
+    .destaques,
+    .experimente {
         padding: 100px 20px;
     }
 }

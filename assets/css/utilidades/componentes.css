@@ -20,9 +20,11 @@
     color: var(--cor-0);
 }
 
-.header-menu a.btn:hover {
+.header-menu a.btn:hover,
+.btn:hover {
     transition: .2s;
     background-color: var(--cor-2-b);
+    transform: scale(1.01) translateY(-2px);
 }
 
 @media (max-width: 800px) {
@@ -55,8 +57,6 @@
 .onda-top .shape-fill {
     fill: #F7F7F7;
 }
-
-
 
 /** For tablet devices **/
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -110,6 +110,7 @@
 }
 
 @media (max-width: 600px) {
+
     .onda-bottom,
     .onda-top {
         display: none;
@@ -128,12 +129,13 @@
 
 .titulo a:hover {
     color: var(--cor-4);
+    text-decoration: none;
+    transform: scale(1.01);
 }
 
 @media (max-width: 600px) {
     .titulo {
-        flex-direction: column;
-        align-items: flex-start;
+        color: var(--cor-5);
     }
 
     .titulo h2 {
@@ -144,6 +146,10 @@
     .titulo a {
         font-size: 1rem;
         letter-spacing: 0.10em;
+    }
+
+    .experimente .titulo {
+        white-space: normal;
     }
 }
 
@@ -196,6 +202,6 @@
 @media (max-width: 620px) {
     .cards {
         gap: 18px;
-        padding: 12px;
+        padding: 0;
     }
 }
