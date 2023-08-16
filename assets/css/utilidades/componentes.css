@@ -1,0 +1,36 @@
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+*.btn {
+    padding: 18px 28px;
+    border-radius: 30px;
+    background-color: var(--cor-2);
+    text-transform: uppercase;
+    max-width: max-content;
+    color: var(--cor-0);
+    font: 500 1.12rem/1.3 "Poppins", sans-serif;
+}
+
+.header-menu a.btn {
+    color: var(--cor-0);
+}
+
+.header-menu a.btn:hover {
+    transition: .2s;
+    background-color: var(--cor-2-b);
+}
+
+@media (max-width: 800px) {
+    *.btn {
+        padding: 16px 20px;
+        font-size: 1rem;
+    }
+    .header-menu a.btn {
+        background-color: var(--cor-2);
+    }
+}

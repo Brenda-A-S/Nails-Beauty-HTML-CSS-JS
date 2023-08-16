@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #141414;
+}
+
+a {
+    color: inherit;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+img[src$='.jpg'] {
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar {
+    width: 11px;
+    background-color: #2e2e2e;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #111;
+    border: 1px solid #2e2e2e;
+}

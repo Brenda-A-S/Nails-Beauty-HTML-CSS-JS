@@ -1,0 +1,46 @@
+.introducao-bg {
+    background-color: var(--cor-3);
+    box-shadow: inset 0 -140px var(--cor-1);
+    position: relative;
+}
+
+.introducao-bg::before {
+    content: "";
+    width: 100%;
+    height: 140px;
+    bottom: 0;
+    left:  0;
+    background:  url("../../imgs/dec/wave-b.svg") no-repeat top left / cover;
+    position: absolute;
+}
+
+.introducao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    padding: 60px 100px 200px 60px;
+}
+
+.introducao-conteudo p {
+    margin-top: 32px;
+    max-width: 40ch;
+}
+
+.introducao-conteudo a {
+    margin-top: 40px;
+}
+
+@media (max-width: 800px) {
+    .introducao{
+        grid-template-columns: 1fr;
+        gap: 24px;
+        padding: 60px 30px 120px 30px;
+    }
+    .introducao-img img {
+        display: none;
+    }
+}
+
+.destaques-bg {
+    background-color: var(--cor-1);
+}
