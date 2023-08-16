@@ -10,6 +10,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #141414;
+    background-color: var(--cor-1);
 }
 
 a {
@@ -29,10 +30,11 @@ img[src$='.jpg'] {
 
 body::-webkit-scrollbar {
     width: 11px;
-    background-color: #2e2e2e;
+    background-color: var(--cor-1);
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #111;
-    border: 1px solid #2e2e2e;
+    background-color: var(--cor-2);
+    border: 2px solid var(--cor-1);
+    border-radius: 10px;
 }

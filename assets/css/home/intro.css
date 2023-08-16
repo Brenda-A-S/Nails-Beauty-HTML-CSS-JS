@@ -1,16 +1,15 @@
 .introducao-bg {
-    background-color: var(--cor-3);
-    box-shadow: inset 0 -140px var(--cor-1);
     position: relative;
+    background: var(--cor-3);
 }
 
 .introducao-bg::before {
     content: "";
     width: 100%;
     height: 140px;
-    bottom: 0;
+    bottom: 0px;
     left:  0;
-    background:  url("../../imgs/dec/wave-b.svg") no-repeat top left / cover;
+    background: var(--cor-1) url("../../imgs/dec/wave-b.svg") no-repeat top left / cover;
     position: absolute;
 }
 
@@ -39,8 +38,4 @@
     .introducao-img img {
         display: none;
     }
-}
-
-.destaques-bg {
-    background-color: var(--cor-1);
 }
