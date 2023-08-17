@@ -36,7 +36,7 @@
         box-shadow: inset 0 -150px var(--cor-2);
     }
     .experimente-imgs {
-        grid-template-columns: 1;
+        grid-template-columns: 1fr;
         gap: 12px;
     }
 }
