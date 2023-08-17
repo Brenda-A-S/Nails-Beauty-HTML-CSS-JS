@@ -11,6 +11,16 @@
     padding: 60px 60px 100px 60px;
 }
 
+.introducao-conteudo h1 {
+    font: 4rem 'Aclonica', sans-serif;
+    white-space: nowrap;
+
+}
+
+.introducao-conteudo h1 span {
+    color: var(--cor-2);
+}
+
 .introducao-conteudo p {
     margin-top: 32px;
     max-width: 40ch;
@@ -39,5 +49,18 @@
     }
     .introducao-img img {
         display: none;
+    }    
+
+    .introducao-conteudo h1 {
+        font-size: 2.5rem;
+    
+    }
+    
+    .introducao-conteudo p {
+        font-size: 1.1rem;
+    }
+    
+    .introducao-conteudo a {
+        font-size: 1rem;
     }
 }
