@@ -1,5 +1,6 @@
 .experimente-bg {
     background-color: var(--cor-3);
+    box-shadow: inset 0 -280px var(--cor-2);
 }
 
 .experimente-conteudo {
@@ -14,6 +15,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 18px;
+    padding-bottom: 80px;
 }
 
 .experimente-imgs div img  {
@@ -23,9 +25,18 @@
     object-position: center;
 }
 
+@media (max-width: 800px) {
+    .experimente-bg {
+        box-shadow: inset 0 -200px var(--cor-2);
+    }
+}
+
 @media (max-width: 600px) {
+    .experimente-bg {
+        box-shadow: inset 0 -150px var(--cor-2);
+    }
     .experimente-imgs {
-        grid-template-columns: repeat(2, minmax(200px, 300px));
-        overflow-x: auto;
+        grid-template-columns: 1;
+        gap: 12px;
     }
 }

@@ -12,14 +12,12 @@
     gap: 16px;
 }
 
-.destaques{
+.destaques {
     padding: 200px 60px;
-    
 }
 
 .experimente {
     padding: 200px 60px 30px 60px;
-
 }
 
 @media (max-width: 800px) {
@@ -34,8 +32,10 @@
 
 @media (max-width: 600px) {
 
-    .destaques,
-    .experimente {
+    .destaques {
         padding: 80px 20px;
+    }
+    .experimente {
+        padding: 80px 20px 20px 20px;
     }
 }
