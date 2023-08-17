@@ -150,9 +150,9 @@
 }
 
 .cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(280px, 340px));
+    overflow-x: auto;
     gap: 32px;
     padding: 24px 0;
     width: 100%;
@@ -167,7 +167,6 @@
     padding: 32px;
     gap: 16px;
     border-radius: 5px;
-    min-width: 250px;
     position: relative;
 }
 
