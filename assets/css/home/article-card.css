@@ -9,19 +9,31 @@
     display: grid;
     grid-template-columns: 1fr;
     place-items: center start;
-    padding: 200px 60px;
     gap: 16px;
 }
 
-@media (max-width: 800px) {
+.destaques{
+    padding: 200px 60px;
+    
+}
 
-    .destaques,
-    .experimente {
+.experimente {
+    padding: 200px 60px 30px 60px;
+
+}
+
+@media (max-width: 800px) {
+    .destaques {
         padding: 100px 30px;
+    }
+
+    .experimente {
+        padding: 100px 30px 30px 30px;
     }
 }
 
 @media (max-width: 600px) {
+
     .destaques,
     .experimente {
         padding: 80px 20px;
