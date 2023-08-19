@@ -38,7 +38,3 @@ body::-webkit-scrollbar-thumb {
     border: 2px solid var(--cor-1);
     border-radius: 10px;
 }
-
-.ativo {
-    background-color: aqua;
-}

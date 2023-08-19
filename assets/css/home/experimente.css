@@ -39,4 +39,7 @@
         grid-template-columns: 1fr;
         gap: 12px;
     }
+    .experimente-imgs div:nth-child(2) {
+        display: none;
+    }
 }

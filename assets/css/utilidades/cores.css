@@ -8,3 +8,28 @@
     --cor-4: #141414;
     --cor-5: #000;
 }
+
+.cor-0 {
+    color: var(--cor-0);
+}
+.cor-1 {
+    color: var(--cor-1);
+}
+.cor-1-b {
+    color: var(--cor-1-b);
+}
+.cor-2 {
+    color: var(--cor-2);
+}
+.cor-2-b {
+    color: var(--cor-2-b);
+}
+.cor-3 {
+    color: var(--cor-3);
+}
+.cor-4 {
+    color: var(--cor-4);
+}
+.cor-5 {
+    color: var(--cor-5);
+}

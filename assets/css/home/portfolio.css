@@ -1,0 +1,74 @@
+.portfolio-bg {
+    background-color: var(--cor-3);
+    box-shadow: inset 0 280px var(--cor-2);
+    padding-bottom: 60px;
+}
+
+.portfolio {
+    position: relative;
+}
+
+.portfolio a {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio::after {
+    content: '';
+    width: 80px;
+    height: 80px;
+    background: url(../../imgs/dec/detalhe.svg) no-repeat bottom 10px left 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.portfolio::before {
+    content: '';
+    width: 80px;
+    height: 80px;
+    background: url(../../imgs/dec/detalhe.svg) no-repeat bottom 10px right 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.portfolio-conteudo {
+    margin-bottom: 40px;
+}
+
+.portfolio-imgs {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(230px, 350px));
+    gap: 48px;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+.portfolio-imgs div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+@media (max-width: 800px) {
+    .portfolio-imgs {
+        grid-template-columns: repeat(2, minmax(100px, 350px));
+    }
+}
+
+@media (max-width: 600px) {
+    .portfolio-imgs {
+        grid-template-columns: minmax(200px, 350px);
+    }
+
+    .portfolio::after {
+        display: none;
+    }
+
+    .portfolio::before {
+        display: none;
+    }
+}
