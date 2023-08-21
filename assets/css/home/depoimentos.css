@@ -1,0 +1,61 @@
+.depoimentos-bg {
+    background-color: var(--cor-2);
+}
+
+.depoimentos-galeria-bg {
+    background: url(../../imgs/dec/textura.svg) no-repeat center / cover;
+    padding: 80px 32px;
+}
+
+.depoimentos  {
+    padding-left: 120px;
+}
+
+ul.depoimentos-galeria {
+    display: flex;
+    gap: 32px;
+    overflow-x: auto;
+}
+
+.card-img {
+    flex: 1;
+    min-width: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card-img img {
+    width: 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.card-img-conteudo {
+    background-color: var(--cor-3);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 32px;
+}
+
+.card-img-conteudo p {
+    margin-bottom: 16px;
+}
+
+@media (max-width: 800px) {
+    .depoimentos-galeria-bg {
+        padding: 60px 24px;
+    }
+    
+.depoimentos {
+    padding-left: 60px;
+}
+}
+
+@media (max-width: 600px) {
+    .depoimentos-galeria-bg {
+        padding: 40px 8px;
+    }
+    .depoimentos {
+        padding-left: 20px;
+    }
+}

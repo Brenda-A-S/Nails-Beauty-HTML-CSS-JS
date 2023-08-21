@@ -133,7 +133,20 @@
     transform: scale(1.01);
 }
 
+#depoimentos .titulo {
+    white-space: normal;
+}
+
+@media (max-width: 800px) {
+    .titulo {
+        gap: 12px;
+    }
+}
+
 @media (max-width: 600px) {
+    .titulo {
+        gap: 8px;
+    }
     .titulo h2 {
         font-size: 1.2rem;
         letter-spacing: 0.10em;

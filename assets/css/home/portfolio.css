@@ -39,29 +39,23 @@
 
 .portfolio-imgs {
     display: grid;
-    grid-template-columns: repeat(3, minmax(230px, 350px));
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 48px;
     justify-content: center;
     margin-bottom: 48px;
 }
 
-.portfolio-imgs div img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-
-
 @media (max-width: 800px) {
     .portfolio-imgs {
-        grid-template-columns: repeat(2, minmax(100px, 350px));
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
     }
 }
 
 @media (max-width: 600px) {
     .portfolio-imgs {
         grid-template-columns: minmax(200px, 350px);
+        gap: 24px;
     }
 
     .portfolio::after {

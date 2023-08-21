@@ -4,9 +4,10 @@
 @import url(./global/header.css);
 @import url(./utilidades/componentes.css);
 @import url(./home/intro.css);
-@import url(./home/article-card.css);
+@import url(./home/section-card.css);
 @import url(./home/experimente.css);
 @import url(./home/portfolio.css);
+@import url(./home/depoimentos.css);
 
 
 

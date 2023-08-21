@@ -4,14 +4,6 @@
     background-color: var(--cor-1);
 }
 
-.destaques,
-.experimente {
-    display: grid;
-    grid-template-columns: 1fr;
-    place-items: center start;
-    gap: 16px;
-}
-
 .destaques {
     padding: 200px 60px;
 }
