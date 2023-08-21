@@ -19,7 +19,6 @@
 .header-menu a {
     padding: 12px 16px;
     border-radius: 30px;
-    color: var(--cor-5);
 }
 
 .header-menu a:hover {

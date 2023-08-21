@@ -17,10 +17,6 @@
 
 }
 
-.introducao-conteudo h1 span {
-    color: var(--cor-2);
-}
-
 .introducao-conteudo p {
     margin-top: 32px;
     max-width: 40ch;

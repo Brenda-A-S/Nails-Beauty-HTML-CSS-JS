@@ -4,17 +4,17 @@
 
 .depoimentos-galeria-bg {
     background: url(../../imgs/dec/textura.svg) no-repeat center / cover;
-    padding: 80px 32px;
 }
 
-.depoimentos  {
-    padding-left: 120px;
+.depoimentos {
+    padding-left: 60px;
 }
 
-ul.depoimentos-galeria {
+.depoimentos-galeria {
     display: flex;
     gap: 32px;
     overflow-x: auto;
+    padding: 80px 120px;
 }
 
 .card-img {
@@ -42,19 +42,22 @@ ul.depoimentos-galeria {
 }
 
 @media (max-width: 800px) {
-    .depoimentos-galeria-bg {
+    .depoimentos-galeria {
         padding: 60px 24px;
+        gap: 24px;
     }
-    
-.depoimentos {
-    padding-left: 60px;
-}
+
+    .depoimentos {
+        padding-left: 40px;
+    }
 }
 
 @media (max-width: 600px) {
-    .depoimentos-galeria-bg {
-        padding: 40px 8px;
+    .depoimentos-galeria {
+        padding: 40px 20px;
+        gap: 20px;
     }
+
     .depoimentos {
         padding-left: 20px;
     }
