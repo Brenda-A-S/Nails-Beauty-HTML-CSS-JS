@@ -2,7 +2,7 @@
     background: var(--cor-3);
 }
 
-.servicos-conteudo{
+.servicos-conteudo {
     position: relative;
 }
 
@@ -16,7 +16,7 @@
     right: 0;
 }
 
-.tabela-servicos {
+.lista-servicos {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
@@ -24,31 +24,31 @@
     padding: 0;
 }
 
-th {
+.lista-servicos h3 {
+    grid-row: 1/-1;
     background-color: var(--cor-2);
     border-radius: 5px;
     padding: 8px;
+    text-align: center;
 }
 
-td {
+.lista-servicos li {
     padding: 8px;
     text-transform: lowercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
 }
 
-tr td:nth-child(2) {
+.lista-servicos ul span {
     text-align: right;
     color: var(--cor-2);
     text-transform: uppercase;
 } 
 
-caption{
-    width: 0px;
-    height: 0px;
-    overflow: hidden;
-}
-
 @media (max-width: 650px) {
-    .tabela-servicos {
+    .lista-servicos {
         grid-template-columns: 1fr;
         gap: 20px;
     }
