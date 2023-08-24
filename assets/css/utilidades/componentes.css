@@ -16,6 +16,15 @@
     font: 500 1.12rem/1.3 "Poppins", sans-serif;
 }
 
+.btn.top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 8px;
+    width: 40px;
+    visibility: hidden;
+}
+
 .header-menu a.btn {
     color: var(--cor-0);
 }
@@ -255,4 +264,8 @@
         gap: 18px;
         padding: 0;
     }
+}
+
+*[id].visivel {
+    visibility: visible;
 }
