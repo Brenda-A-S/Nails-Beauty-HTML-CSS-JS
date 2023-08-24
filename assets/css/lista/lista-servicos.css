@@ -1,5 +1,6 @@
 .servicos-bg {
     background: var(--cor-3);
+    padding-bottom: 40px;
 }
 
 .servicos-conteudo {

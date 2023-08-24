@@ -1,0 +1,21 @@
+.footer-bg {
+    position: relative;
+    padding: 180px 60px 60px 60px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.footer ul {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}

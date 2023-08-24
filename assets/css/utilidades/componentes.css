@@ -173,6 +173,10 @@
     white-space: nowrap;
 }
 
+#agendar .titulo {
+    white-space: break-spaces;
+}
+
 @media (max-width: 800px) {
     .titulo {
         gap: 12px;

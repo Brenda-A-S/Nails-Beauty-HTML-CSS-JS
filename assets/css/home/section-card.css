@@ -20,14 +20,20 @@
     .experimente {
         padding: 100px 30px 30px 30px;
     }
+    .footer-bg {
+        padding: 100px 30px 30px 30px;
+    }
 }
 
 @media (max-width: 600px) {
-
+    
     .destaques {
         padding: 80px 20px;
     }
     .experimente {
+        padding: 80px 20px 20px 20px;
+    }
+    .footer-bg {
         padding: 80px 20px 20px 20px;
     }
 }
