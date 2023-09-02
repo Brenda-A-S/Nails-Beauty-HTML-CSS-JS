@@ -186,6 +186,13 @@
     white-space: break-spaces;
 }
 
+@media (max-width: 350px) {
+    .destaques .titulo,
+.experimente  .titulo{
+    white-space: wrap;
+}
+}
+
 @media (max-width: 800px) {
     .titulo {
         gap: 12px;

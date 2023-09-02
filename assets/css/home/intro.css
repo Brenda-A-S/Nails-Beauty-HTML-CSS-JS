@@ -14,7 +14,6 @@
 .introducao-conteudo h1 {
     font: 4rem 'Aclonica', sans-serif;
     white-space: nowrap;
-
 }
 
 .introducao-conteudo p {
@@ -58,4 +57,11 @@
     .introducao-conteudo a {
         font-size: 1rem;
     }
+}
+
+@media (max-width: 400px) {
+    .introducao-conteudo h1 {
+        white-space: wrap;
+    }
+    
 }
